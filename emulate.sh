@@ -1,5 +1,6 @@
-# Script to emulate Arm-based router firmware. This example is based on a QEMU emulated Debian environment. 
-# You can download the VM with the QEMU Armv7 emulation (link in README)
+# Script to emulate Arm-based Tenda router firmware, tested on Tenda AC6 and AC15.  
+# Emulation tutorial: https://https://azeria-labs.com/emulating-arm-firmware
+# You can download the VM with the QEMU Armv7 emulation here: https://drive.google.com/file/d/1mWlt8XcV0-XAk8gFtTWO_48LUtUAKZj4/view?usp=sharing
 
 # br0 interface existence is necessary for successful emulation
 sudo ip link add br0 type dummy
